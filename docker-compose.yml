@@ -1,0 +1,11 @@
+version: '3.8'
+
+services:
+  keria:
+    build:
+      context: ./images
+      dockerfile: keria.dockerfile
+    ports:
+      - 3901:3901
+      - 3902:3902
+      - 3903:3903
